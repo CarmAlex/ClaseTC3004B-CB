@@ -1,7 +1,14 @@
 import React from 'react'
+import { Fragment } from 'react';
 
 let a,b;
 [a,b] = [10,20]
+
+/*
+const getResult=(x,y)=>{
+  return x+y;
+}
+*/
 
 const Variables = () => {
   return (
