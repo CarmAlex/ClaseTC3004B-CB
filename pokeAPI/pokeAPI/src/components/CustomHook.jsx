@@ -3,6 +3,7 @@ import { useCounter } from "../hooks/useCounter";
 import { Loading } from './Loading'
 import { Card } from './Card'
 
+
 export const CustomHook = () => {
 
     const {counter, decrement, increment} = useCounter(1);
@@ -22,6 +23,8 @@ export const CustomHook = () => {
         <br></br>
 
         <button className='btn btn-primary' onClick={()=>increment()} >Siguiente</button>
+
         </>
+        
     )
 }

@@ -7,10 +7,19 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "node server.js",
+    "dev:all": "concurrently \"npm run server\" \"npm run dev\""
   },
   "dependencies": {
+    "@google/genai": "^2.6.0",
+    "@rcb-plugins/llm-connector": "^0.4.0",
+    "concurrently": "^9.2.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
     "react": "^19.2.0",
+    "react-chatbotify": "^2.5.0",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {

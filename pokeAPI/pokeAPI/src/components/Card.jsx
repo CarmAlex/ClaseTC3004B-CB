@@ -11,6 +11,7 @@ export const Card = ({id, imagen}) => {
                 <img src={imagen} height={200}/>
             </div>
 
+
         </section>
     )
 }
